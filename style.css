@@ -25,7 +25,7 @@ label {
   margin: 10px 0;
 }
 
-input[type="text"] {
+input[type="text"], input[type="number"] {
   width: 80px;
   padding: 8px;
   margin: 0 5px;
