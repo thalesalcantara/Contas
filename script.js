@@ -83,6 +83,7 @@ document.getElementById("calcForm").addEventListener("submit", (e) => {
     <p><strong>Gasolina:</strong> ${formatarReal(gastoGasolina)}</p>
     <p><strong>Total peças:</strong> ${formatarReal(totalPecas)}</p>
     <p><strong>TOTAL:</strong> ${formatarReal(total)}</p>
+    <p><strong>💡 Guarde hoje para manutenção futura:</strong> ${formatarReal(totalPecas)}</p>
     <p><em>Custo por km:</em> ${formatarReal(total / km)} / km</p>
   `;
 });
